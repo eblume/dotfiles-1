@@ -6,8 +6,8 @@
 # Always color, even if piping to a another program
 --color
  
-# Use "less −R" as my pager
---pager="less -R"
+# Use less −FRS as my pager
+--pager=less -FRS
  
 --ignore-dir=.idea/
  
