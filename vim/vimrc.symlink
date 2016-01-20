@@ -7,7 +7,16 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'altercation/vim-colors-solarized'
+
 call plug#end()
 
 " turn on spelling for markdown files
 autocmd BufRead,BufNewFile *.md setlocal spell
+
+" colorscheme
+if has('gui_running')
+  syntax enable
+  set background=dark
+  colorscheme solarized
+end
