@@ -13,9 +13,14 @@ Plug 'chriskempson/vim-tomorrow-theme'
 
 " Syntax
 " Plug 'godlygeek/tabular', { 'for': 'markdown' }
-Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
+" Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 
 call plug#end()
+
+set expandtab
+set shiftwidth=2
 
 " turn on spelling for markdown files
 autocmd BufRead,BufNewFile *.md setlocal spell
@@ -26,7 +31,7 @@ let g:vim_markdown_folding_disabled = 1
 if has('gui_running')
   syntax enable
   " colorscheme solarized
-  colorscheme Tomorrow-Night
+  " colorscheme Tomorrow-Night
   " colorscheme Tomorrow-Night-Eighties
 end
 
