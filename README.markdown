@@ -1,4 +1,10 @@
-# holman does dotfiles
+# eblume does dotfiles
+
+## quick note on this fork
+
+I have just forked this dotfiles repo and haven't had the chance to customize
+it yet (or forgot to come back and edit this README when I did). You can follow
+the fork tree to find a parent.
 
 ## dotfiles
 
